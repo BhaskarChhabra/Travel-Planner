@@ -9,10 +9,10 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-import { Card, CardBody, CardHeader } from "@nextui-org/react";
+import { Card, CardBody, CardHeader } from "@heroui/react";
 import dynamic from "next/dynamic";
-import { apiClient } from "@/lib";
-import { ADMIN_API_ROUTES } from "@/utils/api-routes";
+import { apiClient } from "../../../../../lib";
+import { ADMIN_API_ROUTES } from "../../../../../utils/api-routes";
 
 // Define your data types
 interface ScrapingData {

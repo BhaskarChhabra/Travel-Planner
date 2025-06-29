@@ -22,10 +22,10 @@ import {
 } from "@heroui/react";
 
 import { FaChevronDown, FaSearch } from "react-icons/fa";
-import { apiClient } from "@/lib";
-import { USER_API_ROUTES } from "@/utils";
-import { useAppStore } from "@/store";
-import { BookingType } from "@/types/booking";
+import { apiClient } from "../../lib";
+import { USER_API_ROUTES } from "../../utils";
+import { useAppStore } from "../../store";
+import { BookingType } from "../../types/booking";
 
 const statusColorMap: Record<string, ChipProps["color"]> = {
   trips: "success",

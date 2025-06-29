@@ -16,9 +16,9 @@ import {
   Link,
 } from "@heroui/react";
 import { FaSearch } from "react-icons/fa";
-import { apiClient } from "@/lib";
-import { USER_API_ROUTES } from "@/utils";
-import { TripType } from "@/types/trip";
+import { apiClient } from "../../../lib";
+import { USER_API_ROUTES } from "../../../utils";
+import { TripType } from "../../../types/trip";
 
 const columns = [
   { name: "ID", uid: "id", sortable: true },

@@ -14,9 +14,9 @@ import {
   SortDescriptor,
 } from "@heroui/react";
 import { FaSearch } from "react-icons/fa";
-import { apiClient } from "@/lib";
-import { USER_API_ROUTES } from "@/utils";
-import { HotelType } from "@/types/hotel";
+import { apiClient } from "../../../lib";
+import { USER_API_ROUTES } from "../../../utils";
+import { HotelType } from "../../../types/hotel";
 
 const columns = [
   { name: "ID", uid: "id", sortable: true },

@@ -1,8 +1,8 @@
 "use client";
 
-import { apiClient } from "@/lib";
-import { useAppStore } from "@/store";
-import { USER_API_ROUTES } from "@/utils";
+import { apiClient } from "../lib";
+import { useAppStore } from "../store";
+import { USER_API_ROUTES } from "../utils";
 
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect } from "react";

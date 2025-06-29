@@ -3,9 +3,9 @@
 import React, { useEffect, useState } from "react";
 import { Metrics } from "./components/metrics";
 import { ScrapingChart } from "./components/scraping-chart";
-import ScrapingQueue from "@/components/admin/scraping-queue/scraping-queue";
-import { apiClient } from "@/lib";
-import { ADMIN_API_ROUTES } from "@/utils/api-routes";
+import ScrapingQueue from "../../../components/admin/scraping-queue/scraping-queue";
+import { apiClient } from "../../../lib";
+import { ADMIN_API_ROUTES } from "../../../utils/api-routes";
 
 const Dashboard = () => {
   const [users, setusers] = useState(0);

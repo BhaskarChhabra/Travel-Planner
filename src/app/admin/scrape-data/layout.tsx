@@ -1,5 +1,5 @@
 
-import Sidebar from "@/components/admin/sidebar/sidebar";
+import Sidebar from "../../../components/admin/sidebar/sidebar";
 
 import React from "react";
 

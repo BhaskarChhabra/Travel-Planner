@@ -18,7 +18,7 @@ import {
 import { Architects_Daughter } from "next/font/google";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
-import { useAppStore } from "@/store";
+import { useAppStore } from "../../store";
 
 const ArchitectsDaughter = Architects_Daughter({
   weight: "400",

@@ -1,6 +1,6 @@
 "use client";
-import { apiClient } from "@/lib";
-import { USER_API_ROUTES, removeHtmlTags } from "@/utils";
+import { apiClient } from "../../../lib";
+import { USER_API_ROUTES, removeHtmlTags } from "../../../utils";
 
 import React, { useEffect, useState } from "react";
 import {
@@ -17,9 +17,9 @@ import { Images } from "./components/images";
 import { Button, Input, Tab, Tabs } from "@heroui/react";
 import Image from "next/image";
 import { Iteniary } from "./components/Iteniary";
-import { useAppStore } from "@/store";
+import { useAppStore } from "../../../store";
 import { useRouter } from "next/navigation";
-import { TripType } from "@/types/trip";
+import { TripType } from "../../../types/trip";
 
 const Trip = ({ params: { tripId } }: { params: { tripId: string } }) => {
   const router = useRouter();

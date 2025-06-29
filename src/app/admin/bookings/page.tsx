@@ -20,12 +20,12 @@ import {
   Selection,
   ChipProps,
   SortDescriptor,
-} from "@nextui-org/react";
+} from "@heroui/react";
 
 import { FaChevronDown, FaSearch } from "react-icons/fa";
-import { apiClient } from "@/lib";
-import { USER_API_ROUTES } from "@/utils";
-import { BookingType } from "@/types/booking";
+import { apiClient } from "../../../lib";
+import { USER_API_ROUTES } from "../../../utils";
+import { BookingType } from "../../../types/booking";
 
 const statusColorMap: Record<string, ChipProps["color"]> = {
   trips: "success",

@@ -1,5 +1,5 @@
-import { apiClient } from "@/lib";
-import { USER_API_ROUTES } from "@/utils";
+import { apiClient } from "../../../lib";
+import { USER_API_ROUTES } from "../../../utils";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 

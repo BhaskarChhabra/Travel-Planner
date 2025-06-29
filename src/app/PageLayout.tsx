@@ -2,11 +2,11 @@
 
 import React from "react";
 import { useDisclosure } from "@heroui/react";
-import { AuthModal } from "@/components/auth-modal";
-import { Footer } from "@/components/footer";
-import { Navbar } from "@/components/navbar";
-import ScrapingLoader from "@/components/loaders/scraping-loader";
-import { useAppStore } from "@/store";
+import { AuthModal } from "../components/auth-modal";
+import { Footer } from "../components/footer";
+import { Navbar } from "../components/navbar";
+import ScrapingLoader from "../components/loaders/scraping-loader";
+import { useAppStore } from "../store";
 import { usePathname } from "next/navigation";
 
 interface PageLayoutProps {

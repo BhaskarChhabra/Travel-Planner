@@ -11,9 +11,9 @@ import {
 import { Architects_Daughter } from "next/font/google";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { apiClient } from "@/lib";
-import { useAppStore } from "@/store";
-import { ADMIN_API_ROUTES } from "@/utils/api-routes";
+import { apiClient } from "../../../lib";
+import { useAppStore } from "../../../store";
+import { ADMIN_API_ROUTES } from "../../../utils/api-routes";
 
 const ArchitectsDaughter = Architects_Daughter({
   weight: "400", // if single weight, otherwise you use array like [400, 500, 700],

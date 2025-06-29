@@ -13,9 +13,9 @@ import {
   ListboxItem,
 } from "@heroui/react";
 import { CurrentlyScrapingTable } from "./components/currently-scraping-table";
-import ScrapingQueue from "@/components/admin/scraping-queue/scraping-queue";
-import { apiClient } from "@/lib";
-import { ADMIN_API_ROUTES } from "@/utils/api-routes";
+import ScrapingQueue from "../../../components/admin/scraping-queue/scraping-queue";
+import { apiClient } from "../../../lib";
+import { ADMIN_API_ROUTES } from "../../../utils/api-routes";
 
 const ScrapeTrips = () => {
   const [cities, setCities] = useState([]);

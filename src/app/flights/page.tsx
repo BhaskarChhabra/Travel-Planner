@@ -1,7 +1,7 @@
 "use client";
-import { apiClient } from "@/lib";
-import { useAppStore } from "@/store";
-import { USER_API_ROUTES } from "@/utils";
+import { apiClient } from "../../lib";
+import { useAppStore } from "../../store";
+import { USER_API_ROUTES } from "../../utils";
 import { Button } from "@heroui/react";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";

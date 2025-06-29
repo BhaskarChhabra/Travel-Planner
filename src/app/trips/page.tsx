@@ -1,7 +1,7 @@
 "use client";
-import { apiClient } from "@/lib";
-import { TripType } from "@/types/trip";
-import { USER_API_ROUTES, removeHtmlTags } from "@/utils";
+import { apiClient } from "../../lib";
+import { TripType } from "../../types/trip";
+import { USER_API_ROUTES, removeHtmlTags } from "../../utils";
 import { Button, Chip } from "@heroui/react";
 import Image from "next/image";
 import { useRouter } from 'next/navigation';

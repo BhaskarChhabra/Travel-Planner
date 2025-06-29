@@ -1,4 +1,4 @@
-import { useAppStore } from "@/store";
+import { useAppStore } from "../../store";
 import React from "react";
 
 const ScrapingLoader = () => {

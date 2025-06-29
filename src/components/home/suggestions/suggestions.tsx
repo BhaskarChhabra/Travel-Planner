@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "@heroui/react";
 import Image from "next/image";
-import { apiClient } from "@/lib";
-import { USER_API_ROUTES } from "@/utils";
+import { apiClient } from "../../../lib";
+import { USER_API_ROUTES } from "../../../utils";
 
 const Suggestions = () => {
   const [hotels, setHotels] = useState<
